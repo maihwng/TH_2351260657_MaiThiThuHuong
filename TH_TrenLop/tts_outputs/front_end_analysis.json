@@ -1,0 +1,294 @@
+{
+  "raw_text": "\nDemo TTS - Báo cáo ngày 15/08/2025.\nDr. Smith có 2 báo cáo và mức tăng là 7.5%.\nPlease record the record before 10:30 AM.\n",
+  "normalized_text": "Demo TTS - Báo cáo ngày 15/08/2025.\nDr. Smith có 2 báo cáo và mức tăng là 7.5%.\nPlease record the record before 10:30 AM.",
+  "document_structure": [
+    {
+      "paragraph": "Demo TTS - Báo cáo ngày 15/08/2025.\nDr. Smith có 2 báo cáo và mức tăng là 7.5%.\nPlease record the record before 10:30 AM.",
+      "sentences": [
+        "Demo TTS - Báo cáo ngày 15/08/2025.\nDr. Smith có 2 báo cáo và mức tăng là 7.5%.\nPlease record the record before 10:30 AM."
+      ]
+    }
+  ],
+  "tokens": [
+    "Demo",
+    "TTS",
+    "-",
+    "Báo",
+    "cáo",
+    "ngày",
+    "15/08/2025",
+    ".",
+    "Dr.",
+    "Smith",
+    "có",
+    "2",
+    "báo",
+    "cáo",
+    "và",
+    "mức",
+    "tăng",
+    "là",
+    "7.5",
+    "%",
+    ".",
+    "Please",
+    "record",
+    "the",
+    "record",
+    "before",
+    "10:30",
+    "AM",
+    "."
+  ],
+  "pos_tags": [
+    {
+      "token": "Demo",
+      "pos": "NNP"
+    },
+    {
+      "token": "TTS",
+      "pos": "NNP"
+    },
+    {
+      "token": "-",
+      "pos": ":"
+    },
+    {
+      "token": "Báo",
+      "pos": "NNP"
+    },
+    {
+      "token": "cáo",
+      "pos": "VBP"
+    },
+    {
+      "token": "ngày",
+      "pos": "RB"
+    },
+    {
+      "token": "15/08/2025",
+      "pos": "CD"
+    },
+    {
+      "token": ".",
+      "pos": "."
+    },
+    {
+      "token": "Dr.",
+      "pos": "NNP"
+    },
+    {
+      "token": "Smith",
+      "pos": "NNP"
+    },
+    {
+      "token": "có",
+      "pos": "VBD"
+    },
+    {
+      "token": "2",
+      "pos": "CD"
+    },
+    {
+      "token": "báo",
+      "pos": "NN"
+    },
+    {
+      "token": "cáo",
+      "pos": "NN"
+    },
+    {
+      "token": "và",
+      "pos": "NN"
+    },
+    {
+      "token": "mức",
+      "pos": "NN"
+    },
+    {
+      "token": "tăng",
+      "pos": "NN"
+    },
+    {
+      "token": "là",
+      "pos": "VBD"
+    },
+    {
+      "token": "7.5",
+      "pos": "CD"
+    },
+    {
+      "token": "%",
+      "pos": "NN"
+    },
+    {
+      "token": ".",
+      "pos": "."
+    },
+    {
+      "token": "Please",
+      "pos": "NNP"
+    },
+    {
+      "token": "record",
+      "pos": "VBD"
+    },
+    {
+      "token": "the",
+      "pos": "DT"
+    },
+    {
+      "token": "record",
+      "pos": "NN"
+    },
+    {
+      "token": "before",
+      "pos": "IN"
+    },
+    {
+      "token": "10:30",
+      "pos": "CD"
+    },
+    {
+      "token": "AM",
+      "pos": "NNP"
+    },
+    {
+      "token": ".",
+      "pos": "."
+    }
+  ],
+  "homograph_decisions": [
+    [
+      "record",
+      "VBD",
+      "verb: reCORD (nhấn âm tiết 2)"
+    ],
+    [
+      "record",
+      "NN",
+      "noun: REcord (nhấn âm tiết 1)"
+    ]
+  ],
+  "pronunciation_examples": [
+    {
+      "word": "Demo",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "D EH1 M OW0"
+      ]
+    },
+    {
+      "word": "TTS",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "Báo",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "cáo",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "ngày",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "Smith",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "S M IH1 TH"
+      ]
+    },
+    {
+      "word": "có",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "báo",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "cáo",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "và",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "mức",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "tăng",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "là",
+      "status": "OOV",
+      "pronunciations": []
+    },
+    {
+      "word": "Please",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "P L IY1 Z"
+      ]
+    },
+    {
+      "word": "record",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "R AH0 K AO1 R D",
+        "R EH1 K ER0 D",
+        "R IH0 K AO1 R D"
+      ]
+    },
+    {
+      "word": "the",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "DH AH0",
+        "DH AH1",
+        "DH IY0"
+      ]
+    },
+    {
+      "word": "record",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "R AH0 K AO1 R D",
+        "R EH1 K ER0 D",
+        "R IH0 K AO1 R D"
+      ]
+    },
+    {
+      "word": "before",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "B IH0 F AO1 R",
+        "B IY2 F AO1 R"
+      ]
+    },
+    {
+      "word": "AM",
+      "status": "in_lexicon",
+      "pronunciations": [
+        "AE1 M",
+        "EY1 EH1 M"
+      ]
+    }
+  ]
+}

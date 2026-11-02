@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Demo TTS - Báo cáo ngày 15/08/2025",
+    "punctuation": ".",
+    "pause_after_ms": 350,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  },
+  {
+    "text": "Dr",
+    "punctuation": ".",
+    "pause_after_ms": 350,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  },
+  {
+    "text": "Smith có 2 báo cáo và mức tăng là 7",
+    "punctuation": ".",
+    "pause_after_ms": 350,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  },
+  {
+    "text": "5%",
+    "punctuation": ".",
+    "pause_after_ms": 350,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  },
+  {
+    "text": "Please record the record before 10",
+    "punctuation": ":",
+    "pause_after_ms": 180,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  },
+  {
+    "text": "30 AM",
+    "punctuation": ".",
+    "pause_after_ms": 350,
+    "f0_strategy": "neutral baseline",
+    "duration_strategy": "engine default"
+  }
+]
