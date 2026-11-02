@@ -62,9 +62,17 @@ Kết quả thu được chuỗi token:
 $$W = [\text{"mời"}, \text{"khách"}, \text{"hàng"}, \text{"số"}, \text{"hai"}, \text{"ba"}, \text{"đến"}, \text{"quầy"}, \text{"năm"}]$$
 
 ### 2.2. Chuẩn hóa Năng lượng RMS
-Mỗi đơn vị âm thanh được chuẩn hóa theo mức RMS mục tiêu $\text{RMS}_{target} = 0.08$:
-$$\text{RMS}(x) = \sqrt{\frac{1}{N} \sum_{n=0}^{N-1} x^2[n]}, \quad y[n] = x[n] \cdot \frac{\text{RMS}_{target}}{\text{RMS}(x)}$$
-Dữ liệu lưu trữ gồm 34 files trong `lab4_data/units/` kèm file `metadata.csv`. Thời lượng trung bình của các unit là $0.49\text{ s}$, năng lượng RMS tập trung đều đặn tại mức $0.078 - 0.080$.
+Mỗi đơn vị âm thanh được chuẩn hóa theo mức RMS mục tiêu $\mathrm{RMS}_{\mathrm{target}} = 0.08$:
+
+$$
+\mathrm{RMS}(x) = \sqrt{\frac{1}{N}\sum_{n=0}^{N-1}x^2[n]}
+$$
+
+$$
+y[n] = x[n] \cdot \frac{\mathrm{RMS}_{\mathrm{target}}}{\mathrm{RMS}(x)}
+$$
+
+Dữ liệu lưu trữ gồm 34 files trong `lab4_data/units/` kèm file `metadata.csv`. Thời lượng trung bình của các unit là $0.49\,\mathrm{s}$, năng lượng RMS tập trung đều đặn tại mức $0.078 - 0.080$.
 
 ---
 
@@ -112,8 +120,15 @@ Lưới tìm kiếm gồm 9 vị trí, mỗi vị trí có 2 candidate. Thuật 
 - **Tổng chi phí tối ưu (Total Cost):** $184.22$.
 
 ### 4.3. Thí nghiệm Cross-fade Smoothing (TN1)
-Công thức hòa trộn tuyến tính trên $N$ mẫu ($N = F_s \cdot \text{xfade\_ms} / 1000$):
-$$y[n] = (1 - \alpha[n]) x_1[n] + \alpha[n] x_2[n], \quad \alpha[n] = \frac{n}{N-1}$$
+Công thức hòa trộn tuyến tính trên $N$ mẫu ($N = F_s \cdot \frac{\mathrm{xfade}_{\mathrm{ms}}}{1000}$):
+
+$$
+y[n] = (1-\alpha[n])x_1[n] + \alpha[n]x_2[n]
+$$
+
+$$
+\alpha[n] = \frac{n}{N-1}
+$$
 
 | Mức Cross-fade | File âm thanh | Đặc điểm Waveform tại biên | Cảm nhận khi nghe |
 | :---: | :---: | :--- | :--- |
