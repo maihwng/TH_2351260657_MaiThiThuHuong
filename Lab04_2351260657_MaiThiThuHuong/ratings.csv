@@ -1,0 +1,10 @@
+﻿Sentence_ID,Method,Intelligibility_Score,Naturalness_Score,Continuity_Score,Mean_MOS
+Cau_1,Concatenative_Best,4.8,3.4,3.8,4.0
+Cau_1,HMM_Parametric,4.9,2.8,4.5,3.4
+Cau_1,Neural_TTS,4.9,4.7,4.9,4.83
+Cau_2,Concatenative_Best,4.7,3.2,3.6,3.83
+Cau_2,HMM_Parametric,4.9,2.7,4.5,3.37
+Cau_2,Neural_TTS,4.9,4.8,4.9,4.87
+Cau_3,Concatenative_Best,4.8,3.5,3.7,4.0
+Cau_3,HMM_Parametric,4.9,2.9,4.6,3.47
+Cau_3,Neural_TTS,5.0,4.9,5.0,4.97
